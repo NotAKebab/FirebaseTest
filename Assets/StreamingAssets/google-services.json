@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "339659685130",
+    "project_id": "fir-juegotest",
+    "storage_bucket": "fir-juegotest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339659685130:android:f8993c5781a9f4a1c30ef3",
+        "android_client_info": {
+          "package_name": "com.lol.FirebaseGameTest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATtyRMOTFihA9lXWsobuXk0OTnoElRRQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
