@@ -32,9 +32,9 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene("Friends");
 
     }
-    public void OpenGame()
+    public void OpenGameMenu()
     {
-        SceneManager.LoadScene("coso");
+        SceneManager.LoadScene("GameMenu");
 
     }
 }
