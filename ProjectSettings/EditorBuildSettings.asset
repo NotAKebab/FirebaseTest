@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Recover.unity
     guid: 98183c31c08a3b242a77fd2637d9d2e0
+  - enabled: 1
+    path: Assets/Scenes/Friends.unity
+    guid: 9308f7b0a73583c4d807de69122fa846
   m_configObjects: {}

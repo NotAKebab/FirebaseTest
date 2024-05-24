@@ -1,21 +1,22 @@
 {
   "project_info": {
-    "project_number": "339659685130",
-    "project_id": "fir-juegotest",
-    "storage_bucket": "fir-juegotest.appspot.com"
+    "project_number": "839222530907",
+    "firebase_url": "https://finalcoso-default-rtdb.firebaseio.com",
+    "project_id": "finalcoso",
+    "storage_bucket": "finalcoso.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:339659685130:android:f8993c5781a9f4a1c30ef3",
+        "mobilesdk_app_id": "1:839222530907:android:d5a560679335d4861c407e",
         "android_client_info": {
-          "package_name": "com.lol.FirebaseGameTest"
+          "package_name": "com.monda.OnlineFirebase"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyATtyRMOTFihA9lXWsobuXk0OTnoElRRQg"
+          "current_key": "AIzaSyBQ8BytYO9ucHoi5XolM5KyOPO5aHBY2ow"
         }
       ],
       "services": {
