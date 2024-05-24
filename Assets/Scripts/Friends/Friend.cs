@@ -10,8 +10,6 @@ public class Friend : MonoBehaviour
     private TMP_Text _usernameText;
     [SerializeField]
     private TMP_Text _statusText;
-    [SerializeField]
-    private TMP_Text _notificationText;
 
     private string _friendId;
     private string _username;
@@ -29,12 +27,6 @@ public class Friend : MonoBehaviour
         _username = username;
         _usernameText.text = username;
     }
-    private void ShowNotification(string status)
-    {
-        string message = $"{_username} is now {status}";
-        _notificationText.text = message;
-        StartCoroutine(ClearNotificationAfterDelay(3f)); // Borrar notificación después de 3 segundos
-    }
 
     private void ObserveFriendStatus()
     {
@@ -50,18 +42,11 @@ public class Friend : MonoBehaviour
             {
                 string status = e.Snapshot.Value.ToString();
                 _statusText.text = status;
-                ShowNotification(status);
             }
             else
             {
                 _statusText.text = "offline";
-                ShowNotification("offline");
             }
         };
-    }
-    private IEnumerator ClearNotificationAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        _notificationText.text = "";
     }
 }
